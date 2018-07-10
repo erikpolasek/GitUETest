@@ -1,0 +1,1 @@
+added initial lighting level and clouds
