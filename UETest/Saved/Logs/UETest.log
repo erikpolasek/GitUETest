@@ -1,4 +1,4 @@
-﻿Log file open, 07/12/18 23:41:01
+﻿Log file open, 07/13/18 01:02:15
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,16 +7,14 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UETest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1798029834) SRandInit(1798029834).
+LogInit: Display: RandInit(-1418412057) SRandInit(-1418412057).
 LogInit: Read version file with build ID '3944462'
-LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.401538
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.276702
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/HoudiniEngine/Binaries/Win64/UE4Editor-HoudiniEngineRuntime.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/HoudiniEngine/Binaries/Win64/UE4Editor-HoudiniEngineEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -157,7 +155,6 @@ LogPluginManager: Mounting plugin CableComponent
 LogPluginManager: Mounting plugin CustomMeshComponent
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
 LogPluginManager: Mounting plugin GoogleCloudMessaging
-LogPluginManager: Mounting plugin HoudiniEngine
 LogPluginManager: Mounting plugin ImmediatePhysics
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
@@ -171,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.699s to configure plugins.
+LogStreaming: Display: Took  0.759s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -191,9 +188,9 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am UltimatePC (192.168.1.115:0)
-LogInit: Build: ++UE4+Release-4.19-CL-3944462
-LogInit: Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: WinSock: I am AkhilPC (192.168.0.16:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
 LogInit: Net CL: 3944462
 LogDevObjectVersion: Number of dev versions registered: 18
@@ -215,257 +212,444 @@ LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 
 LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
 LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
-LogInit: Compiled (64-bit): Mar 13 2018 23:12:32
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
-LogInit: Base Directory: F:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Base Directory: G:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.13-03.41.02:274][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.13-03.41.02:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.13-03.41.02:285][  0]LogInit: Computer: ULTIMATEPC
-[2018.07.13-03.41.02:285][  0]LogInit: User: Erik
-[2018.07.13-03.41.02:285][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.07.13-03.41.02:285][  0]LogInit: High frequency timer resolution =3.228260 MHz
-[2018.07.13-03.41.02:285][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.07.13-03.41.02:285][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.13-03.41.02:285][  0]LogMemory: Process Physical Memory: 273.21 MB used, 273.21 MB peak
-[2018.07.13-03.41.02:285][  0]LogMemory: Process Virtual Memory: 265.56 MB used, 265.56 MB peak
-[2018.07.13-03.41.02:285][  0]LogMemory: Physical Memory: 21538.77 MB used,  11130.98 MB free, 32669.75 MB total
-[2018.07.13-03.41.02:285][  0]LogMemory: Virtual Memory: 652.92 MB used,  11130.98 MB free, 134217728.00 MB total
-[2018.07.13-03.41.02:301][  0]LogInit: Using OS detected language (en-US).
-[2018.07.13-03.41.02:301][  0]LogInit: Using OS detected locale (en-CA).
-[2018.07.13-03.41.02:303][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.07.13-03.41.02:717][  0]LogStreaming: Display: Took  0.416s to EndInitTextLocalization.
-[2018.07.13-03.41.02:717][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.13-03.41.02:736][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.13-03.41.02:736][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.13-03.41.02:901][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.13-03.41.02:927][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.07.13-03.41.02:927][  0]LogD3D11RHI:       8021/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.07.13-03.41.02:954][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.07.13-03.41.02:954][  0]LogD3D11RHI:       3943/0/16334 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2018.07.13-03.41.02:955][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.13-03.41.02:955][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.13-03.41.02:955][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.13-03.41.02:961][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.13-03.41.02:961][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.13-03.41.02:961][  0]LogWindows: EnumDisplayDevices:
-[2018.07.13-03.41.02:961][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.07.13-03.41.02:962][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.13-03.41.02:962][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.13-03.41.02:962][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.07.13-03.41.02:962][  0]LogWindows:    4. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.13-03.41.02:962][  0]LogWindows:    5. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.13-03.41.02:962][  0]LogWindows:    6. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.13-03.41.02:962][  0]LogWindows:    7. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.07.13-03.41.02:962][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.07.13-03.41.02:962][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.07.13-03.41.02:962][  0]LogD3D11RHI:   Driver Version: 388.59 (internal:23.21.13.8859, unified:388.59)
-[2018.07.13-03.41.02:962][  0]LogD3D11RHI:      Driver Date: 12-5-2017
-[2018.07.13-03.41.02:962][  0]LogRHI: Texture pool is 5615 MB (70% of 8021 MB)
-[2018.07.13-03.41.02:974][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.07.13-03.41.02:975][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.13-03.41.02:993][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.07.13-03.41.03:037][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (D:/Unreal Projects/GitUETest/UETest/Intermediate/Shaders/WorkingDirectory/9768/).
-[2018.07.13-03.41.03:037][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Erik/AppData/Local/Temp/UnrealShaderWorkingDir/B74455F84F9C327B011658A8E742262F/'.
-[2018.07.13-03.41.03:199][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.13-03.41.03:212][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.13-03.41.03:224][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.13-03.41.03:237][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.13-03.41.03:250][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.13-03.41.03:263][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.13-03.41.03:276][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.13-03.41.03:289][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.13-03.41.03:295][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.13-03.41.03:307][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.13-03.41.03:318][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.13-03.41.03:330][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.13-03.41.03:341][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.13-03.41.03:353][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.13-03.41.03:364][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.13-03.41.03:387][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.13-03.41.03:387][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.13-03.41.03:398][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.13-03.41.03:399][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.13-03.41.03:435][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.13-03.41.03:446][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.13-03.41.03:457][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.13-03.41.03:468][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.13-03.41.03:479][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.13-03.41.03:491][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.13-03.41.03:491][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.13-03.41.03:569][  0]LogXGEController: Cleaning working directory: C:/Users/Erik/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.07.13-03.41.03:569][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.13-03.41.03:569][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.13-03.41.03:569][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.13-03.41.04:281][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.13-03.41.04:369][  0]LogDerivedDataCache: Loaded boot cache 0.09s 74MB C:/Users/Erik/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.13-03.41.04:369][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Erik/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.13-03.41.04:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/GitUETest/UETest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.13-03.41.04:369][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.13-03.41.04:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/GitUETest/UETest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.13-03.41.04:369][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.13-03.41.04:386][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.13-03.41.04:399][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Erik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.13-03.41.04:411][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.13-03.41.04:411][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.13-03.41.04:412][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.13-03.41.04:412][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.13-03.41.04:517][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2018.07.13-03.41.04:812][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.13-03.41.04:942][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.13-03.41.04:944][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.13-03.41.04:944][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.13-03.41.04:944][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.13-03.41.04:944][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.13-03.41.04:944][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.13-03.41.04:967][  0]LogNetVersion: UETest , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2486815547)
-[2018.07.13-03.41.05:360][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.052621 seconds
-[2018.07.13-03.41.05:364][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.13-03.41.05:364][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.07.13-03.41.05:364][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.13-03.41.06:842][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.13-03.41.06:866][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.13-03.41.07:139][  0]SourceControl: Source control is disabled
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: URL: C:\Users\Erik\AppData\Local/Programs/Git/cmd/git.exe version
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.07.13-03.41.07:140][  0]LogWindows: Warning: URL: C:\Users\Erik\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2018.07.13-03.41.07:746][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.13-03.41.07:846][  0]LogHoudiniEngine: Starting the Houdini Engine module.
-[2018.07.13-03.41.07:846][  0]LogHoudiniEngine: Loaded libHAPIL.dll from Registry path F:\Program Files\Side Effects Software\Houdini 16.5.439/bin
-[2018.07.13-03.41.07:847][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_logo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.07.13-03.41.07:849][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_default_material.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.07.13-03.41.07:853][  0]LogLinker: Warning: Asset '../../Plugins/Runtime/HoudiniEngine/Content/houdini_bgeo_import.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2018.07.13-03.41.08:800][  0]LogHoudiniEngine: Successfully intialized the Houdini Engine API module.
-[2018.07.13-03.41.08:838][  0]LogOcInput: OculusInput pre-init called
-[2018.07.13-03.41.08:929][  0]LogEngine: Initializing Engine...
-[2018.07.13-03.41.08:945][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.07.13-03.41.08:947][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.13-03.41.08:947][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.13-03.41.09:168][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.13-03.41.09:199][  0]LogInit: XAudio2 using '31MU97-8 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.07.13-03.41.09:213][  0]LogInit: FAudioDevice initialized.
-[2018.07.13-03.41.09:283][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/Erik/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.13-03.41.09:292][  0]LogInit: Texture streaming: Enabled
-[2018.07.13-03.41.09:304][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.13-03.41.09:315][  0]LogInit: Transaction tracking system initialized
-[2018.07.13-03.41.09:332][  0]BlueprintLog: New page: Editor Load
-[2018.07.13-03.41.09:389][  0]LocalizationService: Localization service is disabled
-[2018.07.13-03.41.09:629][  0]LogConsoleResponse: Display: 
-[2018.07.13-03.41.09:762][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.13-03.41.09:762][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.13-03.41.09:762][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.13-03.41.09:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.13-03.41.09:762][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.13-03.41.09:813][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitUETest/UETest/Content/' took 0.01s
-[2018.07.13-03.41.10:007][  0]LogHoudiniEngineEditor: Starting the Houdini Engine Editor module.
-[2018.07.13-03.41.10:042][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.13-03.41.10:043][  0]LightingResults: New page: Lighting Build
-[2018.07.13-03.41.10:045][  0]MapCheck: New page: Map Check
-[2018.07.13-03.41.10:045][  0]LightingResults: New page: Lighting Build
-[2018.07.13-03.41.10:229][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.07.13-03.41.10:234][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.13-03.41.10:244][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.13-03.41.10:280][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.767ms to complete.
-[2018.07.13-03.41.10:280][  0]LogFileHelpers: Loading map 'Template_Default' took 0.238
-[2018.07.13-03.41.10:416][  0]LogCollectionManager: Loaded 0 collections in 0.001689 seconds
-[2018.07.13-03.41.10:458][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitUETest/UETest/Saved/Collections/' took 0.01s
-[2018.07.13-03.41.10:458][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitUETest/UETest/Content/Developers/Erik/Collections/' took 0.01s
-[2018.07.13-03.41.10:458][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/GitUETest/UETest/Content/Collections/' took 0.01s
-[2018.07.13-03.41.10:458][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.07.13-03.41.10:469][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2486 classes and 565 folders.
-[2018.07.13-03.41.10:478][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.13-03.41.10:518][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.13-03.41.10:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.07.13-03.41.10:591][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.13-03.41.10:595][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.13-03.41.10:602][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.13-03.41.10:699][  0]LogRenderer: Reallocating scene render targets to support 2232x852 Format 10 NumSamples 1 (Frame:1).
-[2018.07.13-03.41.10:948][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.13-03.41.10:948][  0]LogLoad: (Engine Initialization) Total time: 10.78 seconds
-[2018.07.13-03.41.10:948][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.13-03.41.11:307][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.07.13-03.41.11:640][  1]LogAssetRegistry: Asset discovery search completed in 7.1456 seconds
-[2018.07.13-03.41.11:643][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.07.13-03.41.11:643][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
-[2018.07.13-03.41.24:462][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.13-03.41.24:598][483]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.13-03.41.26:293][483]LogAIModule: Creating AISystem for world sandbox_erik_oblivion
-[2018.07.13-03.41.26:316][483]Cmd: MAP LOAD FILE="D:/Unreal Projects/GitUETest/UETest/Content/sandbox_erik_oblivion.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.13-03.41.26:316][483]LightingResults: New page: Lighting Build
-[2018.07.13-03.41.26:317][483]LoadErrors: New page: Loading map: sandbox_erik_oblivion.umap
-[2018.07.13-03.41.26:317][483]MapCheck: New page: Map Check
-[2018.07.13-03.41.26:317][483]LightingResults: New page: Lighting Build
-[2018.07.13-03.41.26:388][483]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.13-03.41.26:416][483]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.13-03.41.26:473][483]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.137ms to complete.
-[2018.07.13-03.41.26:473][483]LogFileHelpers: Loading map 'sandbox_erik_oblivion' took 0.158
-[2018.07.13-03.41.33:031][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.13-03.41.38:548][891]Cmd: EDIT COPY
-[2018.07.13-03.41.43:350][435]LogAIModule: Creating AISystem for world Erik_Environment
-[2018.07.13-03.41.43:361][435]Cmd: MAP LOAD FILE="D:/Unreal Projects/GitUETest/UETest/Content/Maps/Erik_Environment.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.13-03.41.43:362][435]LightingResults: New page: Lighting Build
-[2018.07.13-03.41.43:362][435]LoadErrors: New page: Loading map: Erik_Environment.umap
-[2018.07.13-03.41.43:365][435]MapCheck: New page: Map Check
-[2018.07.13-03.41.43:365][435]LightingResults: New page: Lighting Build
-[2018.07.13-03.41.43:430][435]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.13-03.41.43:458][435]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.13-03.41.43:515][435]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 56.914ms to complete.
-[2018.07.13-03.41.43:515][435]LogFileHelpers: Loading map 'Erik_Environment' took 0.155
-[2018.07.13-03.41.47:540][911]LogEditorViewport: Clicking Background
-[2018.07.13-03.41.47:970][960]Cmd: EDIT PASTE
-[2018.07.13-03.41.54:266][405]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.13-03.41.58:442][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.13-03.41.58:982][878]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.07.13-03.42.08:762][938]LogEditorViewport: Clicking Background
-[2018.07.13-03.42.31:024][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.13-03.43.28:355][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.13-03.43.32:759][746]LogAIModule: Creating AISystem for world sandbox_erik_oblivion
-[2018.07.13-03.43.34:448][746]LogSlate: Window 'Delete Assets' being destroyed
-[2018.07.13-03.43.38:353][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/snowMountainIMG" FILE="D:/Unreal Projects/GitUETest/UETest/Content/Textures/snowMountainIMG.uasset" SILENT=true
-[2018.07.13-03.43.38:390][158]LogSavePackage: Save=35.83ms
-[2018.07.13-03.43.38:390][158]LogSavePackage: Moving 'D:/Unreal Projects/GitUETest/UETest/Saved/snowMountainIMGBB95C45646BD9DB3DDA211A82F2025DE.tmp' to 'D:/Unreal Projects/GitUETest/UETest/Content/Textures/snowMountainIMG.uasset'
-[2018.07.13-03.43.38:391][158]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/GitUETest/UETest/Content/Textures/snowMountainIMG.uasset
-[2018.07.13-03.43.38:916][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mountain" FILE="D:/Unreal Projects/GitUETest/UETest/Content/mountain.uasset" SILENT=true
-[2018.07.13-03.43.38:940][158]LogSavePackage: Save=15.14ms
-[2018.07.13-03.43.38:940][158]LogSavePackage: Moving 'D:/Unreal Projects/GitUETest/UETest/Saved/mountainF5292A44463CE349A230A190C58332D7.tmp' to 'D:/Unreal Projects/GitUETest/UETest/Content/mountain.uasset'
-[2018.07.13-03.43.38:940][158]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/GitUETest/UETest/Content/mountain.uasset
-[2018.07.13-03.43.42:184][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/NewMaterial_2" FILE="D:/Unreal Projects/GitUETest/UETest/Content/Materials/NewMaterial_2.uasset" SILENT=true
-[2018.07.13-03.43.42:202][482]LogSavePackage: Save=16.46ms
-[2018.07.13-03.43.42:202][482]LogSavePackage: Moving 'D:/Unreal Projects/GitUETest/UETest/Saved/NewMaterial_2BEF3B8014A9B41085ECD6AADA877C7A6.tmp' to 'D:/Unreal Projects/GitUETest/UETest/Content/Materials/NewMaterial_2.uasset'
-[2018.07.13-03.43.42:203][482]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/GitUETest/UETest/Content/Materials/NewMaterial_2.uasset
-[2018.07.13-03.43.42:311][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/NewMaterial" FILE="D:/Unreal Projects/GitUETest/UETest/Content/Materials/NewMaterial.uasset" SILENT=true
-[2018.07.13-03.43.42:326][482]LogSavePackage: Save=13.44ms
-[2018.07.13-03.43.42:326][482]LogSavePackage: Moving 'D:/Unreal Projects/GitUETest/UETest/Saved/NewMaterial3756BA7348B0FD6FF5DA50AD8B4A7EEA.tmp' to 'D:/Unreal Projects/GitUETest/UETest/Content/Materials/NewMaterial.uasset'
-[2018.07.13-03.43.42:327][482]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/GitUETest/UETest/Content/Materials/NewMaterial.uasset
-[2018.07.13-03.43.45:221][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/mountain" FILE="D:/Unreal Projects/GitUETest/UETest/Content/Materials/mountain.uasset" SILENT=true
-[2018.07.13-03.43.45:236][741]LogSavePackage: Save=13.58ms
-[2018.07.13-03.43.45:236][741]LogSavePackage: Moving 'D:/Unreal Projects/GitUETest/UETest/Saved/mountainE09877A74AECF1B0D5B43AA870C284D9.tmp' to 'D:/Unreal Projects/GitUETest/UETest/Content/Materials/mountain.uasset'
-[2018.07.13-03.43.45:237][741]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/GitUETest/UETest/Content/Materials/mountain.uasset
-[2018.07.13-03.43.49:979][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Erik_Environment" FILE="D:/Unreal Projects/GitUETest/UETest/Content/Maps/Erik_Environment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.07.13-03.43.50:147][266]LogSavePackage: Save=156.21ms
-[2018.07.13-03.43.50:147][266]LogSavePackage: Moving 'D:/Unreal Projects/GitUETest/UETest/Saved/Erik_Environment854EECD84106A35209E6A48A426EC97D.tmp' to 'D:/Unreal Projects/GitUETest/UETest/Content/Maps/Erik_Environment.umap'
-[2018.07.13-03.43.50:148][266]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/GitUETest/UETest/Content/Maps/Erik_Environment.umap
-[2018.07.13-03.43.50:218][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Erik_Environment_BuiltData" FILE="D:/Unreal Projects/GitUETest/UETest/Content/Maps/Erik_Environment_BuiltData.uasset" SILENT=true
-[2018.07.13-03.43.50:225][266]LogSavePackage: Save=4.77ms
-[2018.07.13-03.43.50:225][266]LogSavePackage: Moving 'D:/Unreal Projects/GitUETest/UETest/Saved/Erik_Environment_BuiltData9E441E6F43D0AD9D1712BB97BA6C7345.tmp' to 'D:/Unreal Projects/GitUETest/UETest/Content/Maps/Erik_Environment_BuiltData.uasset'
-[2018.07.13-03.43.50:226][266]LogSavePackage: Display: Finished SavePackage D:/Unreal Projects/GitUETest/UETest/Content/Maps/Erik_Environment_BuiltData.uasset
-[2018.07.13-03.44.07:247][261]SourceControl: fatal: F:/Program Files/Epic Games/UE_4.19/Engine/Content: 'F:/Program Files/Epic Games/UE_4.19/Engine/Content' is outside repository
-[2018.07.13-03.44.17:947][261]LogSlate: Window 'Submit Files' being destroyed
-[2018.07.13-03.44.28:282][469]LogSlate: Window 'Source Control Login' being destroyed
-[2018.07.13-03.44.38:364][678]LogEditorViewport: Clicking Background
-[2018.07.13-03.44.39:439][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.13-05.02.16:755][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.13-05.02.16:755][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.13-05.02.16:774][  0]LogInit: Computer: AKHILPC
+[2018.07.13-05.02.16:774][  0]LogInit: User: Akhil
+[2018.07.13-05.02.16:774][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.07.13-05.02.16:774][  0]LogInit: High frequency timer resolution =3.312790 MHz
+[2018.07.13-05.02.16:774][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.07.13-05.02.16:774][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.13-05.02.16:774][  0]LogMemory: Process Physical Memory: 272.13 MB used, 272.13 MB peak
+[2018.07.13-05.02.16:774][  0]LogMemory: Process Virtual Memory: 264.58 MB used, 264.58 MB peak
+[2018.07.13-05.02.16:774][  0]LogMemory: Physical Memory: 4517.82 MB used,  11844.64 MB free, 16362.46 MB total
+[2018.07.13-05.02.16:775][  0]LogMemory: Virtual Memory: 638.38 MB used,  11844.64 MB free, 134217728.00 MB total
+[2018.07.13-05.02.16:793][  0]LogInit: Using OS detected language (en-US).
+[2018.07.13-05.02.16:793][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.13-05.02.16:796][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.13-05.02.17:235][  0]LogStreaming: Display: Took  0.443s to EndInitTextLocalization.
+[2018.07.13-05.02.17:236][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.13-05.02.17:267][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.13-05.02.17:268][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.13-05.02.17:484][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.13-05.02.17:510][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.07.13-05.02.17:510][  0]LogD3D11RHI:       1937/0/8181 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.07.13-05.02.17:511][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.13-05.02.17:511][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.13-05.02.17:511][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.13-05.02.17:515][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.13-05.02.17:515][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.13-05.02.17:515][  0]LogWindows: EnumDisplayDevices:
+[2018.07.13-05.02.17:515][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.07.13-05.02.17:515][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.07.13-05.02.17:515][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.07.13-05.02.17:515][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.07.13-05.02.17:515][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.07.13-05.02.17:515][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.07.13-05.02.17:515][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.07.13-05.02.17:515][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.07.13-05.02.17:515][  0]LogRHI: Texture pool is 1356 MB (70% of 1937 MB)
+[2018.07.13-05.02.17:529][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.07.13-05.02.17:529][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.07.13-05.02.17:529][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.13-05.02.17:579][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.07.13-05.02.17:628][  0]LogShaderCompilers: Guid format shader working directory is 27 characters bigger than the processId version (E:/GitUETest/UETest/Intermediate/Shaders/WorkingDirectory/5052/).
+[2018.07.13-05.02.17:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Akhil/AppData/Local/Temp/UnrealShaderWorkingDir/7A1518904A7D81F6C78D76A1D1E0C883/'.
+[2018.07.13-05.02.17:828][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.13-05.02.17:846][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.13-05.02.17:865][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.13-05.02.17:880][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.13-05.02.17:894][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.13-05.02.17:909][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.13-05.02.17:925][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.13-05.02.17:942][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.13-05.02.17:952][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.13-05.02.17:971][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.13-05.02.17:984][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.13-05.02.18:002][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.13-05.02.18:015][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.13-05.02.18:027][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.13-05.02.18:040][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.13-05.02.18:066][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.13-05.02.18:066][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.13-05.02.18:079][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.13-05.02.18:080][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.13-05.02.18:118][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.13-05.02.18:130][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.13-05.02.18:143][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.13-05.02.18:157][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.13-05.02.18:174][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.13-05.02.18:194][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.13-05.02.18:194][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.13-05.02.18:296][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.13-05.02.18:296][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.13-05.02.18:296][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.13-05.02.19:186][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.13-05.02.19:297][  0]LogDerivedDataCache: Loaded boot cache 0.11s 88MB C:/Users/Akhil/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.13-05.02.19:297][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Akhil/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.13-05.02.19:298][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/GitUETest/UETest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.13-05.02.19:298][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.13-05.02.19:298][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/GitUETest/UETest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.13-05.02.19:298][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.13-05.02.19:318][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.13-05.02.19:330][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Akhil/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.13-05.02.19:330][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.13-05.02.19:330][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.13-05.02.19:349][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.13-05.02.19:349][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.13-05.02.19:350][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-05.02.19:350][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.13-05.02.19:467][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2018.07.13-05.02.19:874][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.13-05.02.20:038][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.13-05.02.20:041][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.13-05.02.20:041][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.13-05.02.20:041][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.13-05.02.20:041][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.13-05.02.20:041][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.13-05.02.20:075][  0]LogNetVersion: UETest , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2486815547)
+[2018.07.13-05.02.20:535][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.065352 seconds
+[2018.07.13-05.02.20:542][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.13-05.02.20:542][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.07.13-05.02.20:542][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.13-05.02.22:296][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.13-05.02.22:323][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.13-05.02.22:652][  0]SourceControl: Source control is disabled
+[2018.07.13-05.02.23:284][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.13-05.02.23:422][  0]LogOcInput: OculusInput pre-init called
+[2018.07.13-05.02.23:528][  0]LogEngine: Initializing Engine...
+[2018.07.13-05.02.23:529][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.13-05.02.23:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.13-05.02.23:530][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.13-05.02.23:805][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.13-05.02.23:837][  0]LogInit: XAudio2 using 'WD32HW2490-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.07.13-05.02.23:846][  0]LogInit: FAudioDevice initialized.
+[2018.07.13-05.02.24:057][  0]LogDerivedDataCache: Saved boot cache 0.21s 88MB C:/Users/Akhil/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.13-05.02.24:082][  0]LogInit: Texture streaming: Enabled
+[2018.07.13-05.02.24:098][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.13-05.02.24:109][  0]LogInit: Transaction tracking system initialized
+[2018.07.13-05.02.24:129][  0]BlueprintLog: New page: Editor Load
+[2018.07.13-05.02.24:201][  0]LocalizationService: Localization service is disabled
+[2018.07.13-05.02.24:291][  0]LogConsoleResponse: Display: 
+[2018.07.13-05.02.24:432][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.13-05.02.24:432][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.13-05.02.24:432][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.13-05.02.24:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.13-05.02.24:432][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.13-05.02.24:523][  0]LogFileCache: Scanning file cache for directory 'E:/GitUETest/UETest/Content/' took 0.01s
+[2018.07.13-05.02.24:765][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-05.02.24:766][  0]LightingResults: New page: Lighting Build
+[2018.07.13-05.02.24:768][  0]MapCheck: New page: Map Check
+[2018.07.13-05.02.24:768][  0]LightingResults: New page: Lighting Build
+[2018.07.13-05.02.25:017][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.13-05.02.25:024][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-05.02.25:035][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-05.02.25:075][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 39.704ms to complete.
+[2018.07.13-05.02.25:075][  0]LogFileHelpers: Loading map 'Template_Default' took 0.310
+[2018.07.13-05.02.25:147][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.13-05.02.25:233][  0]LogCollectionManager: Loaded 0 collections in 0.001763 seconds
+[2018.07.13-05.02.25:278][  0]LogFileCache: Scanning file cache for directory 'E:/GitUETest/UETest/Saved/Collections/' took 0.01s
+[2018.07.13-05.02.25:278][  0]LogFileCache: Scanning file cache for directory 'E:/GitUETest/UETest/Content/Developers/Akhil/Collections/' took 0.01s
+[2018.07.13-05.02.25:278][  0]LogFileCache: Scanning file cache for directory 'E:/GitUETest/UETest/Content/Collections/' took 0.01s
+[2018.07.13-05.02.25:278][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.13-05.02.25:291][  0]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2452 classes and 558 folders.
+[2018.07.13-05.02.25:302][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.13-05.02.25:343][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.13-05.02.25:352][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2018.07.13-05.02.25:358][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.07.13-05.02.25:375][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.13-05.02.25:378][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.13-05.02.25:387][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.13-05.02.25:518][  0]LogRenderer: Reallocating scene render targets to support 1084x644 Format 10 NumSamples 1 (Frame:1).
+[2018.07.13-05.02.25:733][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.13-05.02.25:733][  0]LogLoad: (Engine Initialization) Total time: 11.03 seconds
+[2018.07.13-05.02.25:733][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.13-05.02.25:763][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.13-05.02.25:872][  2]LogAssetRegistry: Asset discovery search completed in 6.4278 seconds
+[2018.07.13-05.02.25:874][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.13-05.02.25:875][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.07.13-05.02.29:103][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.13-05.02.30:969][598]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.13-05.02.33:828][934]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.13-05.02.33:842][934]LogAIModule: Creating AISystem for world Akhil_Environment
+[2018.07.13-05.02.33:858][934]Cmd: MAP LOAD FILE="E:/GitUETest/UETest/Content/Maps/Akhil_Environment.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-05.02.33:858][934]LightingResults: New page: Lighting Build
+[2018.07.13-05.02.33:859][934]LoadErrors: New page: Loading map: Akhil_Environment.umap
+[2018.07.13-05.02.33:860][934]MapCheck: New page: Map Check
+[2018.07.13-05.02.33:860][934]LightingResults: New page: Lighting Build
+[2018.07.13-05.02.33:873][934]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-05.02.33:909][934]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-05.02.33:949][934]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.354ms to complete.
+[2018.07.13-05.02.33:949][934]LogFileHelpers: Loading map 'Akhil_Environment' took 0.092
+[2018.07.13-05.02.39:323][553]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.07.13-05.02.39:360][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.39:489][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.39:521][553]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.07.13-05.02.39:521][553]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.07.13-05.02.39:521][553]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.07.13-05.02.39:521][553]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.07.13-05.02.39:521][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.39:893][553]LogMaterial: Missing cached shader map for material M_UI_Screen_v002, compiling. 
+[2018.07.13-05.02.39:923][553]LogMaterial: Missing cached shader map for material M_Lights_Emissive, compiling. 
+[2018.07.13-05.02.39:943][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.40:024][553]LogMaterial: Missing cached shader map for material M_UI_Elements, compiling. 
+[2018.07.13-05.02.40:061][553]LogAIModule: Creating AISystem for world Akhil_Sandbox_map
+[2018.07.13-05.02.40:062][553]LogMaterial: Warning: Material /Game/Triplanar/M_Triplanar.M_Triplanar needed to have new flag set bUsedWithStaticLighting !
+[2018.07.13-05.02.40:086][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.40:146][553]MapCheck: Warning: M_Triplanar Material /Game/Triplanar/M_Triplanar.M_Triplanar was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.07.13-05.02.40:160][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.40:198][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.40:253][553]LogMaterial: Missing cached shader map for material M_Triplanar, compiling. 
+[2018.07.13-05.02.40:327][553]Cmd: MAP LOAD FILE="E:/GitUETest/UETest/Content/Akhil_Sandbox_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-05.02.40:327][553]LightingResults: New page: Lighting Build
+[2018.07.13-05.02.40:328][553]LoadErrors: New page: Loading map: Akhil_Sandbox_map.umap
+[2018.07.13-05.02.40:329][553]MapCheck: New page: Map Check
+[2018.07.13-05.02.40:329][553]LightingResults: New page: Lighting Build
+[2018.07.13-05.02.40:346][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-05.02.40:384][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-05.02.40:434][553]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.506ms to complete.
+[2018.07.13-05.02.40:435][553]LogFileHelpers: Loading map 'Akhil_Sandbox_map' took 0.110
+[2018.07.13-05.02.43:196][762]LogShaderCompilers: Display: Shaders left to compile 732
+[2018.07.13-05.02.43:408][778]LogShaderCompilers: Display: Shaders left to compile 722
+[2018.07.13-05.02.43:494][785]LogShaderCompilers: Display: Shaders left to compile 712
+[2018.07.13-05.02.43:505][786]LogShaderCompilers: Display: Shaders left to compile 702
+[2018.07.13-05.02.45:515][953]LogSlate: Window 'Message Log' being destroyed
+[2018.07.13-05.02.45:521][953]LogSlate: Window 'Message Log' being destroyed
+[2018.07.13-05.02.45:968][992]LogShaderCompilers: Display: Shaders left to compile 692
+[2018.07.13-05.02.46:407][ 32]LogShaderCompilers: Display: Shaders left to compile 682
+[2018.07.13-05.02.47:344][112]LogShaderCompilers: Display: Shaders left to compile 672
+[2018.07.13-05.02.47:603][136]LogShaderCompilers: Display: Shaders left to compile 662
+[2018.07.13-05.02.48:332][197]LogShaderCompilers: Display: Shaders left to compile 652
+[2018.07.13-05.02.49:028][258]LogShaderCompilers: Display: Shaders left to compile 642
+[2018.07.13-05.02.50:089][350]LogShaderCompilers: Display: Shaders left to compile 632
+[2018.07.13-05.02.50:469][383]LogShaderCompilers: Display: Shaders left to compile 622
+[2018.07.13-05.02.52:779][581]LogShaderCompilers: Display: Shaders left to compile 612
+[2018.07.13-05.02.52:790][582]LogShaderCompilers: Display: Shaders left to compile 602
+[2018.07.13-05.02.52:800][583]LogShaderCompilers: Display: Shaders left to compile 592
+[2018.07.13-05.02.53:123][609]LogShaderCompilers: Display: Shaders left to compile 582
+[2018.07.13-05.02.55:244][779]LogShaderCompilers: Display: Shaders left to compile 572
+[2018.07.13-05.02.55:314][783]LogShaderCompilers: Display: Shaders left to compile 562
+[2018.07.13-05.02.55:376][786]LogShaderCompilers: Display: Shaders left to compile 552
+[2018.07.13-05.02.57:031][927]LogShaderCompilers: Display: Shaders left to compile 542
+[2018.07.13-05.02.57:541][970]LogShaderCompilers: Display: Shaders left to compile 532
+[2018.07.13-05.02.58:853][ 87]LogShaderCompilers: Display: Shaders left to compile 522
+[2018.07.13-05.02.58:908][ 92]LogShaderCompilers: Display: Shaders left to compile 512
+[2018.07.13-05.02.59:540][145]LogShaderCompilers: Display: Shaders left to compile 502
+[2018.07.13-05.03.00:588][233]LogShaderCompilers: Display: Shaders left to compile 492
+[2018.07.13-05.03.02:395][387]LogShaderCompilers: Display: Shaders left to compile 482
+[2018.07.13-05.03.02:552][401]LogShaderCompilers: Display: Shaders left to compile 472
+[2018.07.13-05.03.02:638][409]LogShaderCompilers: Display: Shaders left to compile 462
+[2018.07.13-05.03.03:282][465]LogShaderCompilers: Display: Shaders left to compile 452
+[2018.07.13-05.03.04:729][596]LogShaderCompilers: Display: Shaders left to compile 442
+[2018.07.13-05.03.05:278][644]LogShaderCompilers: Display: Shaders left to compile 432
+[2018.07.13-05.03.05:298][646]LogShaderCompilers: Display: Shaders left to compile 422
+[2018.07.13-05.03.07:375][833]LogShaderCompilers: Display: Shaders left to compile 412
+[2018.07.13-05.03.07:617][853]LogShaderCompilers: Display: Shaders left to compile 402
+[2018.07.13-05.03.07:751][866]LogShaderCompilers: Display: Shaders left to compile 392
+[2018.07.13-05.03.09:202][998]LogShaderCompilers: Display: Shaders left to compile 382
+[2018.07.13-05.03.10:008][ 64]LogShaderCompilers: Display: Shaders left to compile 372
+[2018.07.13-05.03.10:590][116]LogShaderCompilers: Display: Shaders left to compile 362
+[2018.07.13-05.03.11:427][189]LogShaderCompilers: Display: Shaders left to compile 352
+[2018.07.13-05.03.12:780][310]LogShaderCompilers: Display: Shaders left to compile 342
+[2018.07.13-05.03.12:941][325]LogShaderCompilers: Display: Shaders left to compile 332
+[2018.07.13-05.03.13:028][333]LogShaderCompilers: Display: Shaders left to compile 322
+[2018.07.13-05.03.14:009][418]LogShaderCompilers: Display: Shaders left to compile 312
+[2018.07.13-05.03.15:368][538]LogShaderCompilers: Display: Shaders left to compile 302
+[2018.07.13-05.03.15:434][544]LogShaderCompilers: Display: Shaders left to compile 292
+[2018.07.13-05.03.16:299][620]LogShaderCompilers: Display: Shaders left to compile 282
+[2018.07.13-05.03.18:192][788]LogShaderCompilers: Display: Shaders left to compile 272
+[2018.07.13-05.03.19:178][875]LogShaderCompilers: Display: Shaders left to compile 262
+[2018.07.13-05.03.19:534][907]LogShaderCompilers: Display: Shaders left to compile 252
+[2018.07.13-05.03.19:554][909]LogShaderCompilers: Display: Shaders left to compile 242
+[2018.07.13-05.03.20:702][ 10]LogShaderCompilers: Display: Shaders left to compile 232
+[2018.07.13-05.03.21:809][110]LogShaderCompilers: Display: Shaders left to compile 222
+[2018.07.13-05.03.22:086][135]LogShaderCompilers: Display: Shaders left to compile 212
+[2018.07.13-05.03.22:254][150]LogShaderCompilers: Display: Shaders left to compile 202
+[2018.07.13-05.03.23:346][248]LogShaderCompilers: Display: Shaders left to compile 192
+[2018.07.13-05.03.26:355][505]LogShaderCompilers: Display: Shaders left to compile 182
+[2018.07.13-05.03.26:608][528]LogShaderCompilers: Display: Shaders left to compile 172
+[2018.07.13-05.03.26:828][544]LogShaderCompilers: Display: Shaders left to compile 162
+[2018.07.13-05.03.27:028][561]LogShaderCompilers: Display: Shaders left to compile 152
+[2018.07.13-05.03.29:077][740]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.07.13-05.03.29:142][746]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.07.13-05.03.29:499][779]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.07.13-05.03.29:832][809]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.07.13-05.03.31:800][982]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.07.13-05.03.33:164][ 92]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.07.13-05.03.34:040][162]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.07.13-05.03.34:324][186]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.07.13-05.03.35:345][274]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.07.13-05.03.35:860][314]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.07.13-05.03.36:393][358]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.07.13-05.03.36:870][396]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.07.13-05.03.38:013][485]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.13-05.03.38:480][523]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.13-05.03.39:667][614]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.13-05.03.53:047][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.13-05.04.03:062][193]Cmd: EDIT CUT
+[2018.07.13-05.04.03:119][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:120][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:120][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:120][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:120][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:120][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:120][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:121][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:122][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:122][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:122][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:122][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.03:133][193]LogEditorActor: Deleted 19 Actors (0.023 secs)
+[2018.07.13-05.04.10:082][974]LogEditorViewport: Clicking Background
+[2018.07.13-05.04.11:201][106]Cmd: EDIT PASTE
+[2018.07.13-05.04.13:704][207]LogEditorViewport: Clicking Background
+[2018.07.13-05.04.15:072][276]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.15:072][276]LogEditorTransaction: Undo Clicking Background
+[2018.07.13-05.04.15:593][294]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.15:593][294]LogEditorTransaction: Undo Paste
+[2018.07.13-05.04.15:970][334]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.15:970][334]LogEditorTransaction: Undo Clicking Background
+[2018.07.13-05.04.16:501][385]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.16:501][385]LogEditorTransaction: Undo Clicking on Actors
+[2018.07.13-05.04.16:854][416]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.16:854][416]LogEditorTransaction: Undo Clicking on Actors
+[2018.07.13-05.04.17:198][449]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.17:198][449]LogEditorTransaction: Undo Clicking on Actors
+[2018.07.13-05.04.17:637][492]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.17:637][492]LogEditorTransaction: Undo Clicking on Actors
+[2018.07.13-05.04.18:000][535]Cmd: TRANSACTION UNDO
+[2018.07.13-05.04.18:000][535]LogEditorTransaction: Undo Cut
+[2018.07.13-05.04.21:938][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.13-05.04.32:969][967]Cmd: EDIT CUT
+[2018.07.13-05.04.32:984][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:984][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:984][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:984][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:984][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:984][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:984][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:985][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:985][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:985][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:985][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:985][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:985][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:985][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:986][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:986][967]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2018.07.13-05.04.32:986][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:986][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:986][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.07.13-05.04.32:986][967]LogEditorActor: Deleted Actor: SpotLight
+[2018.07.13-05.04.32:987][967]LogEditorActor: Deleted Actor: SpotLight
+[2018.07.13-05.04.32:987][967]LogEditorActor: Deleted Actor: SpotLight
+[2018.07.13-05.04.32:987][967]LogEditorActor: Deleted Actor: SpotLight
+[2018.07.13-05.04.32:987][967]LogEditorActor: Deleted Actor: SpotLight
+[2018.07.13-05.04.32:987][967]LogEditorActor: Deleted Actor: SpotLight
+[2018.07.13-05.04.32:987][967]LogEditorActor: Deleted Actor: PointLight
+[2018.07.13-05.04.32:988][967]LogEditorActor: Deleted Actor: PointLight
+[2018.07.13-05.04.32:988][967]LogEditorActor: Deleted Actor: PointLight
+[2018.07.13-05.04.32:988][967]LogEditorActor: Deleted Actor: PointLight
+[2018.07.13-05.04.32:999][967]LogEditorActor: Deleted 29 Actors (0.022 secs)
+[2018.07.13-05.04.37:655][523]LogAIModule: Creating AISystem for world Akhil_Environment
+[2018.07.13-05.04.44:759][523]LogSlate: Window 'Save Content' being destroyed
+[2018.07.13-05.04.44:860][523]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Akhil_Sandbox_map" FILE="E:/GitUETest/UETest/Content/Akhil_Sandbox_map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.13-05.04.44:888][523]LogSavePackage: Save=10.78ms
+[2018.07.13-05.04.44:889][523]LogSavePackage: Moving 'E:/GitUETest/UETest/Saved/Akhil_Sandbox_map0569A4C5421C82C78453C1AF2F3B98C2.tmp' to 'E:/GitUETest/UETest/Content/Akhil_Sandbox_map.umap'
+[2018.07.13-05.04.44:890][523]LogSavePackage: Display: Finished SavePackage E:/GitUETest/UETest/Content/Akhil_Sandbox_map.umap
+[2018.07.13-05.04.44:945][523]LogFileHelpers: Saving map 'Akhil_Sandbox_map' took 0.136
+[2018.07.13-05.04.44:947][523]Cmd: MAP LOAD FILE="E:/GitUETest/UETest/Content/Maps/Akhil_Environment.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-05.04.44:947][523]LightingResults: New page: Lighting Build
+[2018.07.13-05.04.44:948][523]LoadErrors: New page: Loading map: Akhil_Environment.umap
+[2018.07.13-05.04.44:948][523]MapCheck: New page: Map Check
+[2018.07.13-05.04.44:948][523]LightingResults: New page: Lighting Build
+[2018.07.13-05.04.44:962][523]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-05.04.44:995][523]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-05.04.45:049][523]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.872ms to complete.
+[2018.07.13-05.04.45:051][523]LogFileHelpers: Loading map 'Akhil_Environment' took 0.105
+[2018.07.13-05.04.46:560][694]LogEditorViewport: Clicking Background
+[2018.07.13-05.04.47:808][843]Cmd: EDIT PASTE
+[2018.07.13-05.04.51:705][245]LogEditorViewport: Clicking Background
+[2018.07.13-05.05.05:302][749]LogEditorViewport: Clicking Background
+[2018.07.13-05.05.10:171][290]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.05.12:645][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.05.12:689][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.05.12:696][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Akhil_Environment" FILE="E:/GitUETest/UETest/Content/Maps/Akhil_Environment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.13-05.05.12:750][574]LogSavePackage: Save=38.77ms
+[2018.07.13-05.05.12:750][574]LogSavePackage: Moving 'E:/GitUETest/UETest/Saved/Akhil_Environment3E0D064E4B650EE13D7034897A160622.tmp' to 'E:/GitUETest/UETest/Content/Maps/Akhil_Environment.umap'
+[2018.07.13-05.05.12:752][574]LogSavePackage: Display: Finished SavePackage E:/GitUETest/UETest/Content/Maps/Akhil_Environment.umap
+[2018.07.13-05.05.12:818][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Akhil_Environment_BuiltData" FILE="E:/GitUETest/UETest/Content/Maps/Akhil_Environment_BuiltData.uasset" SILENT=true
+[2018.07.13-05.05.12:825][574]LogSavePackage: Save=4.10ms
+[2018.07.13-05.05.12:825][574]LogSavePackage: Moving 'E:/GitUETest/UETest/Saved/Akhil_Environment_BuiltDataF9CACFB84A755BF293CEBFA672E38D43.tmp' to 'E:/GitUETest/UETest/Content/Maps/Akhil_Environment_BuiltData.uasset'
+[2018.07.13-05.05.12:825][574]LogSavePackage: Display: Finished SavePackage E:/GitUETest/UETest/Content/Maps/Akhil_Environment_BuiltData.uasset
+[2018.07.13-05.05.30:262][319]LogAIModule: Creating AISystem for world Akhil_Sandbox_map
+[2018.07.13-05.05.32:892][319]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.13-05.05.33:816][399]Cmd: MAP LOAD FILE="E:/GitUETest/UETest/Content/Akhil_Sandbox_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-05.05.33:816][399]LightingResults: New page: Lighting Build
+[2018.07.13-05.05.33:817][399]LoadErrors: New page: Loading map: Akhil_Sandbox_map.umap
+[2018.07.13-05.05.33:818][399]MapCheck: New page: Map Check
+[2018.07.13-05.05.33:818][399]LightingResults: New page: Lighting Build
+[2018.07.13-05.05.33:830][399]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-05.05.33:867][399]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-05.05.33:914][399]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.073ms to complete.
+[2018.07.13-05.05.33:916][399]LogFileHelpers: Loading map 'Akhil_Sandbox_map' took 0.101
+[2018.07.13-05.05.39:066][  8]LogAIModule: Creating AISystem for world Akhil_Environment
+[2018.07.13-05.05.39:083][  8]Cmd: MAP LOAD FILE="E:/GitUETest/UETest/Content/Maps/Akhil_Environment.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-05.05.39:083][  8]LightingResults: New page: Lighting Build
+[2018.07.13-05.05.39:083][  8]LoadErrors: New page: Loading map: Akhil_Environment.umap
+[2018.07.13-05.05.39:084][  8]MapCheck: New page: Map Check
+[2018.07.13-05.05.39:084][  8]LightingResults: New page: Lighting Build
+[2018.07.13-05.05.39:098][  8]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-05.05.39:131][  8]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-05.05.39:179][  8]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.863ms to complete.
+[2018.07.13-05.05.39:179][  8]LogFileHelpers: Loading map 'Akhil_Environment' took 0.098
+[2018.07.13-05.05.45:114][665]LogAIModule: Creating AISystem for world Akhil_Sandbox_map
+[2018.07.13-05.05.46:251][665]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.13-05.05.49:920][ 60]LogAIModule: Creating AISystem for world Master_level
+[2018.07.13-05.05.49:934][ 60]Cmd: MAP LOAD FILE="E:/GitUETest/UETest/Content/Maps/Master_level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.13-05.05.49:934][ 60]LightingResults: New page: Lighting Build
+[2018.07.13-05.05.49:935][ 60]LoadErrors: New page: Loading map: Master_level.umap
+[2018.07.13-05.05.49:936][ 60]MapCheck: New page: Map Check
+[2018.07.13-05.05.49:936][ 60]LightingResults: New page: Lighting Build
+[2018.07.13-05.05.49:948][ 60]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Caustics_map) is flushing async loading
+[2018.07.13-05.05.50:911][ 60]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Akhil_Environment) is flushing async loading
+[2018.07.13-05.05.50:929][ 60]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Erik_Environment) is flushing async loading
+[2018.07.13-05.06.04:555][ 60]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Lighting_map) is flushing async loading
+[2018.07.13-05.06.08:313][ 60]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Maps/Camera_map) is flushing async loading
+[2018.07.13-05.06.08:559][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.13-05.06.08:597][ 60]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.13-05.06.08:678][ 60]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.229ms to complete.
+[2018.07.13-05.06.08:678][ 60]LogFileHelpers: Loading map 'Master_level' took 18.746
+[2018.07.13-05.06.08:747][ 61]LogRenderer: Reallocating scene render targets to support 1084x1024 Format 10 NumSamples 1 (Frame:0).
+[2018.07.13-05.06.30:634][624]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2018.07.13-05.06.35:732][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.13-05.06.56:250][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.13-05.07.02:587][324]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.07.03:675][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.07.03:720][446]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.07.03:808][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Master_level" FILE="E:/GitUETest/UETest/Content/Maps/Master_level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.07.13-05.07.03:840][446]LogSavePackage: Save=11.34ms
+[2018.07.13-05.07.03:840][446]LogSavePackage: Moving 'E:/GitUETest/UETest/Saved/Master_levelB097B2A24EEA147126A3408213682440.tmp' to 'E:/GitUETest/UETest/Content/Maps/Master_level.umap'
+[2018.07.13-05.07.03:842][446]LogSavePackage: Display: Finished SavePackage E:/GitUETest/UETest/Content/Maps/Master_level.umap
+[2018.07.13-05.07.03:870][446]LogFileHelpers: Saving map 'Master_level' took 0.142
+[2018.07.13-05.07.05:547][558]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.07.28:029][766]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorSkySphere)
+[2018.07.13-05.07.29:156][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.13-05.07.37:198][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
